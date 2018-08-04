@@ -1,0 +1,8 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,jmh_benchmark/ActorMapBM$MyState.doSetup
+inline,jmh_benchmark/ActorMapBM$MyState.doTearDown
+inline,jmh_benchmark/ActorMapBM.putValue
