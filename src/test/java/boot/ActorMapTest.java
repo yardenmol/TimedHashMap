@@ -2,8 +2,8 @@ package boot;
 
 
 import actor_map.ActorTimedHaspMap;
-import first_map.MapInterface;
-import first_map.NaiveMap;
+import gc_map.GCMap;
+import gc_map.MapInterface;
 import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -27,6 +27,16 @@ public class ActorMapTest {
         MapInterface.TimedSizableMap<String, Integer> map = new ActorTimedHaspMap<>();
         map.put("yarden",5,1,TimeUnit.SECONDS);
         Thread.sleep(2000);
+        assertFalse(map.get("yarden").isPresent());
+        assertEquals(0,map.size());
+        map.terminate();
+    }
+
+    @Test
+    public void shouldReturnNull() throws InterruptedException {
+        MapInterface.TimedSizableMap<String, Integer> map = new ActorTimedHaspMap<>();
+        map.put("yarden",5,1,TimeUnit.SECONDS);
+        Thread.sleep(1000);
         assertFalse(map.get("yarden").isPresent());
         assertEquals(0,map.size());
         map.terminate();

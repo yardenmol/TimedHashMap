@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc01d1a-3c50-4288-8ac8-7faa0ec9a167" name="Default" comment="" />
+    <list default="true" id="7cc01d1a-3c50-4288-8ac8-7faa0ec9a167" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapInretalBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmh_benchmark/StampedMapBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/naive_benchmarks/NaiveCompareBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/boot/StampedMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_map/MapInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gc_map/MapInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_map/NaiveMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gc_map/GCMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_map/TimedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gc_map/TimedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jmh_benchmark/CompareBM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naive_benchmarks/CompareBM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jmh_benchmark/NaiveMapBM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/boot/ActorMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/boot/ActorMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/boot/NaiveMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/boot/GCMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$GetMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$GetMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$InnerRemoveMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$InnerRemoveMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$PutMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$PutMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$RemoveMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$RemoveMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$SizeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$SizeMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$TerminateMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap$TerminateMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actor_map/ActorTimedHaspMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actor_map/ActorTimedHaspMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actors/MyActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actors/MyActor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/MapInterface$Sizable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/MapInterface$TimedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/MapInterface$TimedSizableMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/MapInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/NaiveMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/NaiveMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_map/TimedValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/ActorMapBM$MyState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/ActorMapBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/CompareBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/NaiveMapBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/ActorMapBM_putValue_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/ActorMapBM_putValue_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_milli_gc_1_milli_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_milli_gc_1_milli_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_milli_gc_1_sec_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_milli_gc_1_sec_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_milli_gc_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_sec_gc_1_milli_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_sec_gc_1_milli_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_sec_gc_1_sec_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_sec_gc_1_sec_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_insert_1_sec_gc_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_milli_gc_1_milli_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_milli_gc_1_milli_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_milli_gc_1_sec_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_milli_gc_1_sec_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_sec_gc_1_mili_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_sec_gc_1_mili_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_sec_gc_1_sec_exp_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jmh_benchmark/generated/NaiveMapBM_size_1_sec_gc_1_sec_exp_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sh/generated/TestBM_init_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sh/generated/TestBM_jmhType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sh/generated/TestBM_jmhType_B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sh/generated/TestBM_jmhType_B2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sh/generated/TestBM_jmhType_B3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/boot/generated/TestBM_init_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/boot/generated/TestBM_jmhType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/boot/generated/TestBM_jmhType_B1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/boot/generated/TestBM_jmhType_B2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/boot/generated/TestBM_jmhType_B3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh_benchmark/generated/NaiveMapBM_insert_1_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh_benchmark/generated/NaiveMapBM_insert_1_milli_gc_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh_benchmark/generated/NaiveMapBM_insert_1_sec_gc_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/boot/ActorMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/boot/ActorMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/boot/NaiveMapTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,107 +80,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="ActorMapBM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java">
+      <file leaf-file-name="StampedMapBM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/StampedMapBM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="31">
+              <caret line="150" column="7" lean-forward="true" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCMapBM.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapBM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorTimedHaspMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java">
+      <file leaf-file-name="NaiveCompareBM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/naive_benchmarks/NaiveCompareBM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+            <state relative-caret-position="194">
+              <caret line="32" column="119" lean-forward="true" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#949#967#0" expanded="true" />
+                <element signature="e#3576#3594#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorSystem.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorSystem.class">
+      <file leaf-file-name="StampedItemMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stamped_item_map/StampedItemMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="191" column="39" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/first_map/MapInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="782">
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/Main.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/boot/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputTimeUnit.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/annotations/OutputTimeUnit.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#remove#0;class#ActorMap#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Patterns.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/pattern/Patterns.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="true">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="187" column="25" lean-forward="true" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -123,6 +134,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -131,7 +143,11 @@
     <findStrings>
       <find>get</find>
       <find>ask</find>
+      <find>`</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,20 +157,34 @@
         <option value="$PROJECT_DIR$/src/main/java/first_map/NaiveMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/sh/TestBM.java" />
         <option value="$PROJECT_DIR$/src/main/java/sh/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/NaiveMapBM.java" />
         <option value="$PROJECT_DIR$/src/main/java/actors/MyActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/actors/NuniActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/actors/ActorApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/actor_map/StampedItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/first_map/MapInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/boot/ActorMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/NaiveMapSimpleBM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/CompareBM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java" />
         <option value="$PROJECT_DIR$/src/main/java/actor_map/ActorMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/boot/ActorMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/CompareBM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/boot/GCMapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/boot/StampedMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/NewCompateBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/NewCompareBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/NaiveMapBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stamped_item_map/StampedItemMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/naive_benchmarks/NaiveCompareBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/StampedMapBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapBM.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -163,68 +193,87 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1984" />
-    <option name="y" value="-11" />
-    <option name="width" value="1857" />
-    <option name="height" value="1092" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shit" type="462c0819:PsiDirectoryNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shit" type="462c0819:PsiDirectoryNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shit" type="462c0819:PsiDirectoryNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shit" type="462c0819:PsiDirectoryNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shit" type="462c0819:PsiDirectoryNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jmh_benchmark" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimedHashMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimedHashMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -251,10 +300,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ActorMapBM">
+  <component name="RunManager" selected="Application.GCMapBM">
     <configuration name="ActorMapBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jmh_benchmark.ActorMapBM" />
-      <module name="TimedHashMap" />
+      <module name="shit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="naive_benchmarks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GCMapBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmh_benchmark.GCMapBM" />
+      <module name="shit" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -263,24 +323,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ActorTimedHaspMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="actor_map.ActorTimedHaspMap" />
-      <module name="TimedHashMap" />
+    <configuration name="NaiveCompareBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naive_benchmarks.NaiveCompareBM" />
+      <module name="shit" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actor_map.*" />
+          <option name="PATTERN" value="naive_benchmarks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CompareBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmh_benchmark.CompareBM" />
-      <module name="TimedHashMap" />
+    <configuration name="StampedMapBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmh_benchmark.StampedMapBM" />
+      <module name="shit" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jmh_benchmark.*" />
+          <option name="PATTERN" value="naive_benchmarks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,8 +348,8 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ActorMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TimedHashMap" />
+    <configuration name="StampedMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="boot.*" />
@@ -299,32 +359,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="boot" />
-      <option name="MAIN_CLASS_NAME" value="boot.ActorMapTest" />
+      <option name="MAIN_CLASS_NAME" value="boot.StampedMapTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ActorMapTest.shouldInsertParallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TimedHashMap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="boot" />
-      <option name="MAIN_CLASS_NAME" value="boot.ActorMapTest" />
-      <option name="METHOD_NAME" value="shouldInsertParallel" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -373,19 +410,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ActorTimedHaspMap" />
-      <item itemvalue="JUnit.ActorMapTest" />
-      <item itemvalue="JUnit.ActorMapTest.shouldInsertParallel" />
-      <item itemvalue="Application.CompareBM" />
+      <item itemvalue="JUnit.StampedMapTest" />
+      <item itemvalue="Application.NaiveCompareBM" />
       <item itemvalue="Application.ActorMapBM" />
+      <item itemvalue="Application.StampedMapBM" />
+      <item itemvalue="Application.GCMapBM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GCMapBM" />
+        <item itemvalue="Application.NaiveCompareBM" />
+        <item itemvalue="JUnit.StampedMapTest" />
+        <item itemvalue="Application.StampedMapBM" />
         <item itemvalue="Application.ActorMapBM" />
-        <item itemvalue="Application.CompareBM" />
-        <item itemvalue="JUnit.ActorMapTest.shouldInsertParallel" />
-        <item itemvalue="JUnit.ActorMapTest" />
-        <item itemvalue="Application.ActorTimedHaspMap" />
       </list>
     </recent_temporary>
   </component>
@@ -399,40 +436,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533301873476</updated>
+      <workItem from="1533406869021" duration="19258000" />
+      <workItem from="1533672116750" duration="1400000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NaiveMapTest - 2018.08.03 at 16h 25m 59s.xml">
-      <configuration name="NaiveMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest_shouldGcRemove - 2018.08.07 at 18h 22m 55s.xml">
+      <configuration name="StampedMapTest.shouldGcRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest - 2018.08.04 at 19h 38m 49s.xml">
-      <configuration name="ActorMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest_shouldGcRemove - 2018.08.07 at 18h 23m 41s.xml">
+      <configuration name="StampedMapTest.shouldGcRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest - 2018.08.04 at 19h 42m 50s.xml">
-      <configuration name="ActorMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest_shouldGcRemove - 2018.08.07 at 18h 25m 53s.xml">
+      <configuration name="StampedMapTest.shouldGcRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest - 2018.08.04 at 19h 43m 16s.xml">
-      <configuration name="ActorMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest - 2018.08.07 at 18h 26m 35s.xml">
+      <configuration name="StampedMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest - 2018.08.04 at 19h 43m 31s.xml">
-      <configuration name="ActorMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest_shouldReturnNull - 2018.08.07 at 18h 27m 04s.xml">
+      <configuration name="StampedMapTest.shouldReturnNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest - 2018.08.04 at 19h 45m 48s.xml">
-      <configuration name="ActorMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest - 2018.08.07 at 18h 27m 28s.xml">
+      <configuration name="StampedMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest - 2018.08.04 at 19h 47m 11s.xml">
-      <configuration name="ActorMapTest" configurationId="JUnit" />
+    <history-entry file="StampedMapTest,shouldReturnLastValueOfKey_and_1_more - 2018.08.07 at 18h 28m 41s.xml">
+      <configuration name="StampedMapTest,shouldReturnLastValueOfKey and 1 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest_shouldInsertParallel - 2018.08.04 at 19h 48m 04s.xml">
-      <configuration name="ActorMapTest.shouldInsertParallel" configurationId="JUnit" />
+    <history-entry file="StampedMapTest_shouldInsertParallel - 2018.08.07 at 18h 29m 40s.xml">
+      <configuration name="StampedMapTest.shouldInsertParallel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest_shouldInsertParallel - 2018.08.04 at 19h 48m 37s.xml">
-      <configuration name="ActorMapTest.shouldInsertParallel" configurationId="JUnit" />
+    <history-entry file="StampedMapTest - 2018.08.07 at 18h 30m 47s.xml">
+      <configuration name="StampedMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActorMapTest_shouldInsertParallel - 2018.08.04 at 19h 49m 15s.xml">
-      <configuration name="ActorMapTest.shouldInsertParallel" configurationId="JUnit" />
+    <history-entry file="StampedMapTest - 2018.08.07 at 23h 02m 59s.xml">
+      <configuration name="StampedMapTest" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,36 +486,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="13" width="3712" height="2148" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32959184" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.14336284" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37091836" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986523" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.7327434" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32920355" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2582996" />
+      <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.76283187" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -484,25 +530,112 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/CompareBM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/StampedMapBM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="89" />
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stamped_item_map/StampedItemMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/NaiveMapBM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/naive_benchmarks/NaiveCompareBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#949#967#0" expanded="true" />
+            <element signature="e#3576#3594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3502">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gc_map/MapInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boot/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/annotations/OutputTimeUnit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/pattern/Patterns.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naive_benchmarks/CompareBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapInretalBM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="17" column="42" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,10 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#remove#0;class#ActorMap#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,11 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,13 +696,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sh/TestBM.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="462" column="6" selection-start-line="462" selection-start-column="6" selection-end-line="462" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Random.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorRef.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -593,27 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/first_map/NaiveMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/first_map/TimedValue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gc_map/TimedValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/StampedItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -621,98 +722,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actors/MyActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actors/ActorApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/boot/NaiveMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/boot/ActorMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/CompareBM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/NaiveMapBM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="17" column="42" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/annotations/OutputTimeUnit.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="153">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/boot/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/Main.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="170">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/first_map/MapInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gc_map/MapInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state relative-caret-position="765">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -720,57 +749,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorSystem.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="191" column="39" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#remove#0;class#ActorMap#0" />
-          </folding>
+        <state relative-caret-position="8041">
+          <caret line="315" selection-start-line="315" selection-end-line="315" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/pattern/Patterns.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="374">
           <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/boot/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="187" column="25" lean-forward="true" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/StampedItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gc_map/GCMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/boot/GCMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/boot/StampedMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/boot/ActorMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naive_benchmarks/CompareBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapInretalBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="22" lean-forward="true" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actors/ActorApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actors/MyActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stamped_item_map/StampedItemMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actor_map/ActorTimedHaspMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/ActorMapBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="22" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naive_benchmarks/NaiveCompareBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="32" column="119" lean-forward="true" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#949#967#0" expanded="true" />
+            <element signature="e#3576#3594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/StampedMapBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="150" column="7" lean-forward="true" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh_benchmark/GCMapBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

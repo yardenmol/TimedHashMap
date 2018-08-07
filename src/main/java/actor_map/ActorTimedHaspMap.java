@@ -4,7 +4,7 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.util.Timeout;
-import first_map.MapInterface;
+import gc_map.MapInterface;
 import scala.concurrent.Await;
 import scala.concurrent.Future;
 
