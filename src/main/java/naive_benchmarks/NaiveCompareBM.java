@@ -19,9 +19,8 @@ public class NaiveCompareBM {
 //        new NaiveCompareBM().actorMapBMGet();
 //        System.gc();
 //        new NaiveCompareBM().stampedMapBMGet();
-
-        System.gc();
-        new NaiveCompareBM().gcMapBMSetSizeGet();
+//        System.gc();
+//        new NaiveCompareBM().gcMapBMSetSizeGet();
 //        System.gc();
 //        new NaiveCompareBM().actorMapBMGet();
 //        System.gc();

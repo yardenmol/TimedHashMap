@@ -3,12 +3,11 @@ package naive_benchmarks;
 import actor_map.ActorTimedHaspMap;
 import gc_map.MapInterface;
 import gc_map.GCMap;
-import stamped_item_map.StampedItemMap;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
-public class CompareBM {
+public class GCMapCompareSizeCall {
 
     private final MapInterface.TimedSizableMap<Integer, Integer> naive = new GCMap<Integer, Integer>(10, TimeUnit.MILLISECONDS);
     private final MapInterface.TimedSizableMap<Integer, Integer> actor = new ActorTimedHaspMap<>();
@@ -18,65 +17,8 @@ public class CompareBM {
 
 
     public static void main(String... args) {
-            new CompareBM().benchmark();
+            new GCMapCompareSizeCall().measureSizeCall();
     }
-
-    public void benchmark() {
-        warmup();
-        System.gc();
-        measure();
-    }
-
-    private void measure() {
-        MapInterface.TimedSizableMap<Integer, Integer> naive = new GCMap<Integer, Integer>(10, TimeUnit.MILLISECONDS);
-        MapInterface.TimedSizableMap<Integer, Integer> actor = new ActorTimedHaspMap<>();
-        MapInterface.TimedSizableMap<Integer, Integer> stamped = new StampedItemMap<>();
-
-
-        long naiveStart = System.nanoTime();
-        for (int i = 0; i < BENCHMARK_ITER; i++) {
-            naive.put(i,i,10,TimeUnit.MILLISECONDS);
-            naive.size();
-        }
-        long naiveEnd = System.nanoTime();
-        naive.terminate();
-
-        System.gc();
-
-        long actorStart = System.nanoTime();
-        for (int i = 0; i < BENCHMARK_ITER; i++) {
-            actor.put(i,i,10,TimeUnit.MILLISECONDS);
-            actor.size();
-        }
-        long actorEnd = System.nanoTime();
-        actor.terminate();
-
-        System.gc();
-
-        long stampedStart = System.nanoTime();
-        for (int i = 0; i < BENCHMARK_ITER; i++) {
-            stamped.put(i,i,10,TimeUnit.MILLISECONDS);
-            stamped.size();
-        }
-        long stampedEnd = System.nanoTime();
-        actor.terminate();
-
-        System.out.println("naive: " + (naiveEnd - naiveStart)/1E6 + "ms");
-        System.out.println("actor: " + (actorEnd - actorStart)/1E6 + "ms");
-    }
-
-    private void warmup() {
-        long start = System.nanoTime();
-        for (int i = 0; i < WARMUP_ITER; i++) {
-            naive.put(i,i,10,TimeUnit.MILLISECONDS);
-            naive.size();
-            actor.put(i,i,10,TimeUnit.MILLISECONDS);
-            actor.size();
-        }
-        long end = System.nanoTime();
-        System.out.println("Warmup time: " + (end-start)/1E6 + "ms");
-    }
-
 
     // test with expiration = , gcInterval = ,
     public void measureSizeCall(){

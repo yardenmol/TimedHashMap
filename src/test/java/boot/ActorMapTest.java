@@ -36,7 +36,7 @@ public class ActorMapTest {
     public void shouldReturnNull() throws InterruptedException {
         MapInterface.TimedSizableMap<String, Integer> map = new ActorTimedHaspMap<>();
         map.put("yarden",5,1,TimeUnit.SECONDS);
-        Thread.sleep(1000);
+        Thread.sleep(1100);
         assertFalse(map.get("yarden").isPresent());
         assertEquals(0,map.size());
         map.terminate();

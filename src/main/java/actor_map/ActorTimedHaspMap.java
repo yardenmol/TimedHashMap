@@ -33,7 +33,7 @@ public class ActorTimedHaspMap<K,V> implements MapInterface.TimedSizableMap<K,V>
         try {
             V v = (V)Await.result(future,timeout.duration());
             if (v != ""){
-                   return Optional.ofNullable(v);
+                return Optional.ofNullable(v);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -85,4 +85,3 @@ public class ActorTimedHaspMap<K,V> implements MapInterface.TimedSizableMap<K,V>
         test.terminate();
     }
 }
-

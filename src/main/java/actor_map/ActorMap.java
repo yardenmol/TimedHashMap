@@ -66,13 +66,13 @@ public class ActorMap<K,V> extends AbstractActor {
     @Override
     public Receive createReceive() {
         return receiveBuilder()
-            .match(PutMsg.class, this::put)
-            .match(RemoveMsg.class, this::remove)
-            .match(GetMsg.class, this::get)
-            .match(SizeMsg.class, this::size)
-            .match(InnerRemoveMsg.class, this::innerRemove)
-            .match(TerminateMsg.class,this::terminate)
-        .build();
+                .match(PutMsg.class, this::put)
+                .match(RemoveMsg.class, this::remove)
+                .match(GetMsg.class, this::get)
+                .match(SizeMsg.class, this::size)
+                .match(InnerRemoveMsg.class, this::innerRemove)
+                .match(TerminateMsg.class,this::terminate)
+                .build();
     }
     private void terminate(TerminateMsg msg){
         cleaner.shutdownNow();
@@ -83,7 +83,7 @@ public class ActorMap<K,V> extends AbstractActor {
         innerMap.put((K)msg.key, new StampedItem<>((V)msg.value,stamp));
         cleaner.schedule(()->{
             getSelf().tell(new InnerRemoveMsg<>(msg.key, stamp),
-                           ActorRef.noSender());
+                    ActorRef.noSender());
         },msg.duration,msg.unit);
     }
 
@@ -116,11 +116,11 @@ public class ActorMap<K,V> extends AbstractActor {
         Props p = Props.create(ActorMap.class,() -> new ActorMap<Integer,String>());
         ActorRef actorMap = system.actorOf(p, "amzing");
         actorMap.tell(new PutMsg<Integer,String>(
-                1,
-                "isan",
-                3,
-                TimeUnit.SECONDS),
-        actorMap);
+                        1,
+                        "isan",
+                        3,
+                        TimeUnit.SECONDS),
+                actorMap);
         Thread.sleep(5000);
         //yarden.tell(new NuniActor.Greeting("from me isan rivka"), isan);
         system.terminate();
